@@ -20,7 +20,8 @@ Google Sheets → Make.com validation → research/enrichment → deterministic 
 ## Current progress
 - [x] Imported a 26-column Google Sheets prospect tracker.
 - [x] Confirmed Make.com Search Rows reads synthetic test record TEST-001.
-- [ ] Implement validation router and suppression handling.
+- [x] Import and inspect a validation router with a fallback branch; verify synthetic opted-out and missing-website cases reach fallback.
+- [ ] Complete positive-path and additional validation tests before declaring routing complete.
 - [ ] Verify five real prospect records and evidence sources.
 - [ ] Test fit scoring and draft generation.
 - [ ] Complete UAT and a safe demo.
