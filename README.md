@@ -24,7 +24,10 @@ Google Sheets → Make.com validation → research/enrichment → deterministic 
 - [x] Verify initial Router routing with three synthetic cases: valid record, opt-out and missing website.
 - [ ] Complete expanded edge-case tests and evidence verification.
 - [ ] Verify five real prospect records and evidence sources.
-- [ ] Test fit scoring and draft generation.
+- [x] Test deterministic fit scoring and evidence-completeness routing with synthetic data; no outreach generation yet.
+- [x] Verify a controlled Google Sheets write-back to the intended synthetic row (three cells updated).
+- [ ] Implement separate human approval, suppression and contact-eligibility gates.
+- [ ] Test AI-assisted draft generation (review only; no sending).
 - [ ] Complete UAT and a safe demo.
 
 ## Disclosure
